@@ -335,3 +335,5 @@ ASALocalRun/
 CMakeFiles/
 CMakeCache.txt
 cmake_install.cmake
+pong
+Makefile
