@@ -1,6 +1,6 @@
 #ifndef settings_h
 #define settings_h
-#include "Vec2.h"
+#include "vec2.h"
 namespace settings
 {
     //Window settings

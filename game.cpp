@@ -4,6 +4,7 @@
 #include "settings.h"
 #include "raylibWrapper.h"
 #include <iostream>
+#include "vec2.h"
 
 Game::Game(int width, int height, int fps, std::string title)
     :
@@ -92,9 +93,9 @@ void Game::Draw()
 
     char buffer[50];
 
-    sprintf_s(buffer, "%d", paddle1.score);
+    printf(buffer, "%d", paddle1.score);
     DrawText(buffer, (GetScreenWidth() / 2) - 50, 30, 40, WHITE);
-    sprintf_s(buffer, "%d", paddle2.score);
+    printf(buffer, "%d", paddle2.score);
     DrawText(buffer, (GetScreenWidth() / 2) + 50, 30, 40, WHITE);
 
 }
